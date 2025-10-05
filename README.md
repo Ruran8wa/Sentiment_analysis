@@ -26,30 +26,6 @@ The goal is to build a robust binary classifier that labels IMDB reviews as posi
 5. Training with validation, checkpointing, and simple logging.
 6. Evaluation using accuracy, precision, recall, F1-score, and a confusion matrix.
 
-## Quick start — recommended steps
-
-1. Create a Python environment (recommended Python 3.8+):
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-```
-
-2. Install the common dependencies:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn nltk tensorflow tqdm
-```
-
-3. Open and run the notebook:
-
-```bash
-jupyter lab notebooks/IMDB_reviews_Sentiment_analysis_LSTM.ipynb
-```
-
-The notebook is organized so you can run cells top-to-bottom. It includes data loading, preprocessing, model definition, training, and evaluation.
-
 # Sentiment Analysis on IMDB Reviews (Google Colab first)
 
 This repository contains an end-to-end experiment for binary sentiment classification of IMDB movie reviews. The primary workflow is provided as a notebook that's convenient to run on Google Colab (recommended). A local fallback is included below.
